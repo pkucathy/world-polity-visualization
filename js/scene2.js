@@ -277,7 +277,7 @@ navDiv.append("button")
 navDiv.append("button")
   .attr("class", "nav-button")
   .style("margin-left", "20px")
-  .text("Next: Scene 3")
+  .text("Next: Country-Level Summary")
   .on("click", () => {
     d3.select("#scene2").style("display", "none");
     d3.select("#scene3").style("display", "block");

@@ -4,8 +4,8 @@ function renderScene1() {
 
   // Define the dimensions for the SVG container.
   // Increased dimensions to provide a better layout.
-  const width = 1100;
-  const height = 750;
+  const width = 1000;
+  const height = 650;
 
   // Select the map SVG and set its dimensions.
   const svg = d3.select("#map")
