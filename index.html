@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CS416 Final Project</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://unpkg.com/topojson@3"></script>
+</head>
+<body>
+  <h1>Political Regime Transition (Polity IV)</h1>
+
+  <!-- === Scene 1 Container === -->
+  <div id="scene1">
+    <div class="controls-container">
+      <label for="year-slider">Select Year:</label>
+      <div class="slider-container">
+        <input type="range" id="year-slider" min="1990" max="2018" value="2000" step="1">
+        <div id="year-ticks">
+          <span class="tick" data-year="1990">1990</span>
+          <span class="tick" data-year="2000">2000</span>
+          <span class="tick" data-year="2010">2010</span>
+          <span class="tick" data-year="2018">2018</span>
+        </div>
+      </div>
+    </div>
+
+    <div id="annotation-box"></div>
+    <svg id="map"></svg>
+  </div>
+
+  <!-- === Scene 2 Container (Initially Hidden) === -->
+  <div id="scene2" style="display: none; text-align: center;">
+    <!-- scene2.js will inject the scatterplot SVG here -->
+  </div>
+
+  <!-- === Navigation Button === -->
+  <div id="scene1-next-button" class="nav-button-container">
+    <button class="nav-button" onclick="goToScene2()">Next: Regime Stability Pattern</button>
+  </div>
+
+  <div id="source-info">
+    <p>Source: <a href="https://ourworldindata.org/grapher/democracy-index-polity" target="_blank">Our World in Data</a></p>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+  <script src="js/scene2.js"></script>
+  <script>
+    // Scene transition logic
+    function goToScene2() {
+      document.getElementById("scene1").style.display = "none";
+      document.getElementById("scene2").style.display = "block";
+      renderScene2();  // Calls the scene2 drawing function
+    }
+  </script>
+</body>
+</html>

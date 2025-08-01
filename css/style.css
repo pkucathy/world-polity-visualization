@@ -1,0 +1,136 @@
+body {
+  font-family: sans-serif;
+  margin: 30px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#source-info {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-size: 14px;
+}
+
+.controls-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.slider-container {
+  display: flex;
+  flex-direction: column; /* Stack the slider and ticks vertically */
+  align-items: center;
+  margin-left: 10px;
+  position: relative;
+  width: 250px;
+}
+
+#year-slider {
+  width: 100%;
+  cursor: pointer;
+  -webkit-appearance: none;
+  background: transparent;
+  margin: 0;
+  padding: 0;
+}
+
+#year-slider::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 4px;
+  cursor: pointer;
+  background: #d3d3d3;
+  border-radius: 2px;
+}
+
+#year-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: 2px solid #005A8D;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background: #ffffff;
+  cursor: pointer;
+  margin-top: -6px;
+}
+
+#year-ticks {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.tick {
+  font-size: 12px;
+  color: #555;
+  cursor: pointer;
+}
+
+#year-display {
+  font-weight: bold;
+  font-size: 1.2em;
+  width: 50px;
+  text-align: center;
+  margin-left: 20px; /* Adjust spacing */
+}
+
+#annotation-box {
+  max-width: 900px;
+  margin: 0 auto 20px;
+  padding: 10px;
+  background-color: #f7f7f7;
+  border-left: 5px solid #005A8D;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+#map {
+  overflow: visible;
+  display: block;
+  margin: auto;
+  margin-top: -50px;
+}
+
+/* Tooltip style */
+
+
+.tooltip {
+  position: absolute;
+  text-align: left;
+  max-width: 280px;
+  padding: 8px;
+  font: 12px sans-serif;
+  background: lightsteelblue;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+  line-height: 1.4;
+}
+
+.nav-button {
+  font-size: 14px;
+  padding: 6px 10px;
+  margin: 5px;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.nav-button:hover {
+  background-color: #e6e6e6;
+}
+
+.nav-button-container {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  text-align: left;
+}

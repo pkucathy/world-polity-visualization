@@ -1,0 +1,664 @@
+Entity,Code,Year,Democracy
+Afghanistan,AFG,1990,-8
+Afghanistan,AFG,2000,-7
+Afghanistan,AFG,2018,-1
+Albania,ALB,1990,1
+Albania,ALB,2000,5
+Albania,ALB,2010,9
+Albania,ALB,2018,9
+Algeria,DZA,1990,-2
+Algeria,DZA,2000,-3
+Algeria,DZA,2010,2
+Algeria,DZA,2018,2
+Angola,AGO,1990,-7
+Angola,AGO,2000,-6
+Angola,AGO,2010,-2
+Angola,AGO,2018,-2
+Argentina,ARG,1990,7
+Argentina,ARG,2000,8
+Argentina,ARG,2010,8
+Argentina,ARG,2018,9
+Armenia,ARM,1990,0
+Armenia,ARM,2000,5
+Armenia,ARM,2010,5
+Armenia,ARM,2018,7
+Australia,AUS,1990,10
+Australia,AUS,2000,10
+Australia,AUS,2010,10
+Australia,AUS,2018,10
+Austria,AUT,1990,10
+Austria,AUT,2000,10
+Austria,AUT,2010,10
+Austria,AUT,2018,10
+Azerbaijan,AZE,1990,0
+Azerbaijan,AZE,2000,-7
+Azerbaijan,AZE,2010,-7
+Azerbaijan,AZE,2018,-7
+Bahrain,BHR,1990,-10
+Bahrain,BHR,2000,-9
+Bahrain,BHR,2010,-5
+Bahrain,BHR,2018,-10
+Bangladesh,BGD,1990,-5
+Bangladesh,BGD,2000,6
+Bangladesh,BGD,2010,5
+Bangladesh,BGD,2018,-6
+Belarus,BLR,1990,0
+Belarus,BLR,2000,-7
+Belarus,BLR,2010,-7
+Belarus,BLR,2018,-7
+Belgium,BEL,1990,10
+Belgium,BEL,2000,10
+Belgium,BEL,2010,8
+Belgium,BEL,2018,8
+Benin,BEN,1990,-1
+Benin,BEN,2000,6
+Benin,BEN,2010,7
+Benin,BEN,2018,7
+Bhutan,BTN,1990,-10
+Bhutan,BTN,2000,-10
+Bhutan,BTN,2010,3
+Bhutan,BTN,2018,7
+Bolivia,BOL,1990,9
+Bolivia,BOL,2000,9
+Bolivia,BOL,2010,7
+Bolivia,BOL,2018,7
+Bosnia and Herzegovina,BIH,1990,-5
+Botswana,BWA,1990,7
+Botswana,BWA,2000,8
+Botswana,BWA,2010,8
+Botswana,BWA,2018,8
+Brazil,BRA,1990,8
+Brazil,BRA,2000,8
+Brazil,BRA,2010,8
+Brazil,BRA,2018,8
+Bulgaria,BGR,1990,7
+Bulgaria,BGR,2000,8
+Bulgaria,BGR,2010,9
+Bulgaria,BGR,2018,9
+Burkina Faso,BFA,1990,-7
+Burkina Faso,BFA,2000,-3
+Burkina Faso,BFA,2010,0
+Burkina Faso,BFA,2018,6
+Burundi,BDI,1990,-6
+Burundi,BDI,2000,-1
+Burundi,BDI,2010,6
+Burundi,BDI,2018,-1
+Cambodia,KHM,1990,-5
+Cambodia,KHM,2000,2
+Cambodia,KHM,2010,2
+Cambodia,KHM,2018,-4
+Cameroon,CMR,1990,-3
+Cameroon,CMR,2000,-5
+Cameroon,CMR,2010,-5
+Cameroon,CMR,2018,-5
+Canada,CAN,1990,10
+Canada,CAN,2000,10
+Canada,CAN,2010,10
+Canada,CAN,2018,10
+Cape Verde,CPV,1990,-2
+Cape Verde,CPV,2000,8
+Cape Verde,CPV,2010,10
+Cape Verde,CPV,2018,10
+Central African Republic,CAF,1990,-7
+Central African Republic,CAF,2000,5
+Central African Republic,CAF,2010,-1
+Central African Republic,CAF,2018,6
+Chad,TCD,1990,-3
+Chad,TCD,2000,-1
+Chad,TCD,2010,-1
+Chad,TCD,2018,-1
+Chile,CHL,1990,8
+Chile,CHL,2000,9
+Chile,CHL,2010,10
+Chile,CHL,2018,10
+China,CHN,1990,-7
+China,CHN,2000,-7
+China,CHN,2010,-7
+China,CHN,2018,-7
+Colombia,COL,1990,8
+Colombia,COL,2000,7
+Colombia,COL,2010,7
+Colombia,COL,2018,7
+Comoros,COM,1990,4
+Comoros,COM,2000,-1
+Comoros,COM,2010,9
+Comoros,COM,2018,-3
+Congo,COG,1990,-8
+Congo,COG,2000,-6
+Congo,COG,2010,-4
+Congo,COG,2018,-4
+Costa Rica,CRI,1990,10
+Costa Rica,CRI,2000,10
+Costa Rica,CRI,2010,10
+Costa Rica,CRI,2018,10
+Cote d'Ivoire,CIV,1990,-7
+Cote d'Ivoire,CIV,2000,4
+Cote d'Ivoire,CIV,2010,0
+Cote d'Ivoire,CIV,2018,4
+Croatia,HRV,1990,-5
+Croatia,HRV,2000,8
+Croatia,HRV,2010,9
+Croatia,HRV,2018,9
+Cuba,CUB,1990,-7
+Cuba,CUB,2000,-7
+Cuba,CUB,2010,-7
+Cuba,CUB,2018,-5
+Cyprus,CYP,1990,10
+Cyprus,CYP,2000,10
+Cyprus,CYP,2010,10
+Cyprus,CYP,2018,10
+Czechia,CZE,1990,7
+Czechia,CZE,2000,10
+Czechia,CZE,2010,9
+Czechia,CZE,2018,9
+Czechoslovakia,OWID_CZS,1990,7
+Democratic Republic of Congo,COD,1990,-8
+Democratic Republic of Congo,COD,2000,0
+Democratic Republic of Congo,COD,2010,5
+Democratic Republic of Congo,COD,2018,-3
+Denmark,DNK,1990,10
+Denmark,DNK,2000,10
+Denmark,DNK,2010,10
+Denmark,DNK,2018,10
+Djibouti,DJI,1990,-8
+Djibouti,DJI,2000,1
+Djibouti,DJI,2010,2
+Djibouti,DJI,2018,3
+Dominican Republic,DOM,1990,5
+Dominican Republic,DOM,2000,8
+Dominican Republic,DOM,2010,8
+Dominican Republic,DOM,2018,7
+East Timor,TLS,2010,7
+East Timor,TLS,2018,8
+Ecuador,ECU,1990,9
+Ecuador,ECU,2000,6
+Ecuador,ECU,2010,5
+Ecuador,ECU,2018,5
+Egypt,EGY,1990,-6
+Egypt,EGY,2000,-6
+Egypt,EGY,2010,-3
+Egypt,EGY,2018,-4
+El Salvador,SLV,1990,6
+El Salvador,SLV,2000,7
+El Salvador,SLV,2010,8
+El Salvador,SLV,2018,8
+Equatorial Guinea,GNQ,1990,-7
+Equatorial Guinea,GNQ,2000,-6
+Equatorial Guinea,GNQ,2010,-6
+Equatorial Guinea,GNQ,2018,-6
+Eritrea,ERI,2000,-6
+Eritrea,ERI,2010,-7
+Eritrea,ERI,2018,-7
+Estonia,EST,1990,0
+Estonia,EST,2000,9
+Estonia,EST,2010,9
+Estonia,EST,2018,9
+Eswatini,SWZ,1990,-9
+Eswatini,SWZ,2000,-7
+Eswatini,SWZ,2010,-7
+Eswatini,SWZ,2018,-7
+Ethiopia,ETH,2000,1
+Ethiopia,ETH,2010,-3
+Ethiopia,ETH,2018,1
+Ethiopia (former),OWID_ERE,1990,-8
+Fiji,FJI,1990,5
+Fiji,FJI,2000,6
+Fiji,FJI,2010,-4
+Fiji,FJI,2018,2
+Finland,FIN,1990,10
+Finland,FIN,2000,10
+Finland,FIN,2010,10
+Finland,FIN,2018,10
+France,FRA,1990,10
+France,FRA,2000,10
+France,FRA,2010,10
+France,FRA,2018,10
+Gabon,GAB,1990,-6
+Gabon,GAB,2000,-4
+Gabon,GAB,2010,3
+Gabon,GAB,2018,3
+Gambia,GMB,1990,8
+Gambia,GMB,2000,-5
+Gambia,GMB,2010,-5
+Gambia,GMB,2018,4
+Georgia,GEO,1990,0
+Georgia,GEO,2000,2
+Georgia,GEO,2010,6
+Georgia,GEO,2018,7
+Germany,DEU,1990,10
+Germany,DEU,2000,10
+Germany,DEU,2010,10
+Germany,DEU,2018,10
+Ghana,GHA,1990,-7
+Ghana,GHA,2000,2
+Ghana,GHA,2010,8
+Ghana,GHA,2018,8
+Greece,GRC,1990,10
+Greece,GRC,2000,10
+Greece,GRC,2010,10
+Greece,GRC,2018,10
+Guatemala,GTM,1990,3
+Guatemala,GTM,2000,8
+Guatemala,GTM,2010,8
+Guatemala,GTM,2018,8
+Guinea,GIN,1990,-7
+Guinea,GIN,2000,-1
+Guinea,GIN,2010,1
+Guinea,GIN,2018,4
+Guinea-Bissau,GNB,1990,-8
+Guinea-Bissau,GNB,2000,5
+Guinea-Bissau,GNB,2010,6
+Guinea-Bissau,GNB,2018,6
+Guyana,GUY,1990,-7
+Guyana,GUY,2000,6
+Guyana,GUY,2010,6
+Guyana,GUY,2018,7
+Haiti,HTI,1990,0
+Haiti,HTI,2000,-2
+Haiti,HTI,2010,0
+Haiti,HTI,2018,5
+Honduras,HND,1990,6
+Honduras,HND,2000,7
+Honduras,HND,2010,7
+Honduras,HND,2018,7
+Hungary,HUN,1990,10
+Hungary,HUN,2000,10
+Hungary,HUN,2010,10
+Hungary,HUN,2018,10
+India,IND,1990,8
+India,IND,2000,9
+India,IND,2010,9
+India,IND,2018,9
+Indonesia,IDN,1990,-7
+Indonesia,IDN,2000,6
+Indonesia,IDN,2010,8
+Indonesia,IDN,2018,9
+Iran,IRN,1990,-6
+Iran,IRN,2000,3
+Iran,IRN,2010,-7
+Iran,IRN,2018,-7
+Iraq,IRQ,1990,-9
+Iraq,IRQ,2000,-9
+Iraq,IRQ,2010,3
+Iraq,IRQ,2018,6
+Ireland,IRL,1990,10
+Ireland,IRL,2000,10
+Ireland,IRL,2010,10
+Ireland,IRL,2018,10
+Israel,ISR,1990,6
+Israel,ISR,2000,6
+Israel,ISR,2010,6
+Israel,ISR,2018,6
+Italy,ITA,1990,10
+Italy,ITA,2000,10
+Italy,ITA,2010,10
+Italy,ITA,2018,10
+Jamaica,JAM,1990,10
+Jamaica,JAM,2000,9
+Jamaica,JAM,2010,9
+Jamaica,JAM,2018,9
+Japan,JPN,1990,10
+Japan,JPN,2000,10
+Japan,JPN,2010,10
+Japan,JPN,2018,10
+Jordan,JOR,1990,-4
+Jordan,JOR,2000,-2
+Jordan,JOR,2010,-3
+Jordan,JOR,2018,-3
+Kazakhstan,KAZ,1990,0
+Kazakhstan,KAZ,2000,-6
+Kazakhstan,KAZ,2010,-6
+Kazakhstan,KAZ,2018,-6
+Kenya,KEN,1990,-7
+Kenya,KEN,2000,4
+Kenya,KEN,2010,8
+Kenya,KEN,2018,9
+Kosovo,OWID_KOS,1990,-5
+Kosovo,OWID_KOS,2000,7
+Kosovo,OWID_KOS,2010,8
+Kosovo,OWID_KOS,2018,8
+Kuwait,KWT,2000,-7
+Kuwait,KWT,2010,-7
+Kuwait,KWT,2018,-7
+Kyrgyzstan,KGZ,1990,0
+Kyrgyzstan,KGZ,2000,-3
+Kyrgyzstan,KGZ,2010,4
+Kyrgyzstan,KGZ,2018,8
+Laos,LAO,1990,-7
+Laos,LAO,2000,-7
+Laos,LAO,2010,-7
+Laos,LAO,2018,-7
+Latvia,LVA,1990,0
+Latvia,LVA,2000,8
+Latvia,LVA,2010,8
+Latvia,LVA,2018,8
+Lebanon,LBN,2010,6
+Lebanon,LBN,2018,6
+Lesotho,LSO,1990,-7
+Lesotho,LSO,2000,6
+Lesotho,LSO,2010,8
+Lesotho,LSO,2018,8
+Liberia,LBR,1990,0
+Liberia,LBR,2000,0
+Liberia,LBR,2010,6
+Liberia,LBR,2018,7
+Libya,LBY,1990,-7
+Libya,LBY,2000,-7
+Libya,LBY,2010,-7
+Libya,LBY,2018,0
+Lithuania,LTU,1990,0
+Lithuania,LTU,2000,10
+Lithuania,LTU,2010,10
+Lithuania,LTU,2018,10
+Luxembourg,LUX,1990,10
+Luxembourg,LUX,2000,10
+Luxembourg,LUX,2010,10
+Luxembourg,LUX,2018,10
+Madagascar,MDG,1990,-6
+Madagascar,MDG,2000,7
+Madagascar,MDG,2010,0
+Madagascar,MDG,2018,6
+Malawi,MWI,1990,-9
+Malawi,MWI,2000,6
+Malawi,MWI,2010,6
+Malawi,MWI,2018,6
+Malaysia,MYS,1990,4
+Malaysia,MYS,2000,3
+Malaysia,MYS,2010,6
+Malaysia,MYS,2018,7
+Mali,MLI,1990,-7
+Mali,MLI,2000,5
+Mali,MLI,2010,7
+Mali,MLI,2018,5
+Mauritania,MRT,1990,-7
+Mauritania,MRT,2000,-6
+Mauritania,MRT,2010,-2
+Mauritania,MRT,2018,-2
+Mauritius,MUS,1990,10
+Mauritius,MUS,2000,10
+Mauritius,MUS,2010,10
+Mauritius,MUS,2018,10
+Mexico,MEX,1990,0
+Mexico,MEX,2000,8
+Mexico,MEX,2010,8
+Mexico,MEX,2018,8
+Moldova,MDA,1990,0
+Moldova,MDA,2000,7
+Moldova,MDA,2010,9
+Moldova,MDA,2018,9
+Mongolia,MNG,1990,2
+Mongolia,MNG,2000,10
+Mongolia,MNG,2010,10
+Mongolia,MNG,2018,10
+Montenegro,MNE,1990,-5
+Montenegro,MNE,2000,7
+Montenegro,MNE,2010,9
+Montenegro,MNE,2018,9
+Morocco,MAR,1990,-8
+Morocco,MAR,2000,-6
+Morocco,MAR,2010,-6
+Morocco,MAR,2018,-4
+Mozambique,MOZ,1990,-7
+Mozambique,MOZ,2000,5
+Mozambique,MOZ,2010,5
+Mozambique,MOZ,2018,5
+Myanmar,MMR,1990,-5
+Myanmar,MMR,2000,-5
+Myanmar,MMR,2010,-6
+Myanmar,MMR,2018,8
+Namibia,NAM,1990,6
+Namibia,NAM,2000,6
+Namibia,NAM,2010,6
+Namibia,NAM,2018,6
+Nepal,NPL,1990,5
+Nepal,NPL,2000,6
+Nepal,NPL,2010,6
+Nepal,NPL,2018,7
+Netherlands,NLD,1990,10
+Netherlands,NLD,2000,10
+Netherlands,NLD,2010,10
+Netherlands,NLD,2018,10
+New Zealand,NZL,1990,10
+New Zealand,NZL,2000,10
+New Zealand,NZL,2010,10
+New Zealand,NZL,2018,10
+Nicaragua,NIC,1990,6
+Nicaragua,NIC,2000,8
+Nicaragua,NIC,2010,9
+Nicaragua,NIC,2018,6
+Niger,NER,1990,-4
+Niger,NER,2000,5
+Niger,NER,2010,3
+Niger,NER,2018,5
+Nigeria,NGA,1990,-5
+Nigeria,NGA,2000,4
+Nigeria,NGA,2010,4
+Nigeria,NGA,2018,7
+North Korea,PRK,1990,-9
+North Korea,PRK,2000,-10
+North Korea,PRK,2010,-10
+North Korea,PRK,2018,-10
+North Macedonia,MKD,1990,-5
+North Macedonia,MKD,2000,6
+North Macedonia,MKD,2010,9
+North Macedonia,MKD,2018,9
+Norway,NOR,1990,10
+Norway,NOR,2000,10
+Norway,NOR,2010,10
+Norway,NOR,2018,10
+Oman,OMN,1990,-10
+Oman,OMN,2000,-9
+Oman,OMN,2010,-8
+Oman,OMN,2018,-8
+Pakistan,PAK,1990,8
+Pakistan,PAK,2000,-6
+Pakistan,PAK,2010,6
+Pakistan,PAK,2018,7
+Panama,PAN,1990,8
+Panama,PAN,2000,9
+Panama,PAN,2010,9
+Panama,PAN,2018,9
+Papua New Guinea,PNG,1990,4
+Papua New Guinea,PNG,2000,4
+Papua New Guinea,PNG,2010,4
+Papua New Guinea,PNG,2018,5
+Paraguay,PRY,1990,2
+Paraguay,PRY,2000,7
+Paraguay,PRY,2010,8
+Paraguay,PRY,2018,9
+Peru,PER,1990,8
+Peru,PER,2000,4
+Peru,PER,2010,9
+Peru,PER,2018,9
+Philippines,PHL,1990,8
+Philippines,PHL,2000,8
+Philippines,PHL,2010,8
+Philippines,PHL,2018,8
+Poland,POL,1990,5
+Poland,POL,2000,9
+Poland,POL,2010,10
+Poland,POL,2018,10
+Portugal,PRT,1990,10
+Portugal,PRT,2000,10
+Portugal,PRT,2010,10
+Portugal,PRT,2018,10
+Qatar,QAT,1990,-10
+Qatar,QAT,2000,-10
+Qatar,QAT,2010,-10
+Qatar,QAT,2018,-10
+Romania,ROU,1990,5
+Romania,ROU,2000,8
+Romania,ROU,2010,9
+Romania,ROU,2018,9
+Russia,RUS,1990,0
+Russia,RUS,2000,6
+Russia,RUS,2010,4
+Russia,RUS,2018,4
+Rwanda,RWA,1990,-7
+Rwanda,RWA,2000,-4
+Rwanda,RWA,2010,-4
+Rwanda,RWA,2018,-3
+Saudi Arabia,SAU,1990,-10
+Saudi Arabia,SAU,2000,-10
+Saudi Arabia,SAU,2010,-10
+Saudi Arabia,SAU,2018,-10
+Senegal,SEN,1990,-1
+Senegal,SEN,2000,8
+Senegal,SEN,2010,7
+Senegal,SEN,2018,7
+Serbia,SRB,1990,-5
+Serbia,SRB,2000,7
+Serbia,SRB,2010,8
+Serbia,SRB,2018,8
+Serbia and Montenegro,OWID_SRM,2000,7
+Sierra Leone,SLE,1990,-7
+Sierra Leone,SLE,2000,0
+Sierra Leone,SLE,2010,7
+Sierra Leone,SLE,2018,7
+Singapore,SGP,1990,-4
+Singapore,SGP,2000,-4
+Singapore,SGP,2010,-2
+Singapore,SGP,2018,-2
+Slovakia,SVK,1990,7
+Slovakia,SVK,2000,9
+Slovakia,SVK,2010,10
+Slovakia,SVK,2018,10
+Slovenia,SVN,1990,-5
+Slovenia,SVN,2000,10
+Slovenia,SVN,2010,10
+Slovenia,SVN,2018,10
+Solomon Islands,SLB,1990,8
+Solomon Islands,SLB,2000,0
+Solomon Islands,SLB,2010,8
+Solomon Islands,SLB,2018,8
+Somalia,SOM,1990,-7
+Somalia,SOM,2000,0
+Somalia,SOM,2010,0
+Somalia,SOM,2018,5
+South Africa,ZAF,1990,5
+South Africa,ZAF,2000,9
+South Africa,ZAF,2010,9
+South Africa,ZAF,2018,9
+South Korea,KOR,1990,6
+South Korea,KOR,2000,8
+South Korea,KOR,2010,8
+South Korea,KOR,2018,8
+South Sudan,SSD,2018,0
+Spain,ESP,1990,10
+Spain,ESP,2000,10
+Spain,ESP,2010,10
+Spain,ESP,2018,10
+Sri Lanka,LKA,1990,5
+Sri Lanka,LKA,2000,5
+Sri Lanka,LKA,2010,3
+Sri Lanka,LKA,2018,6
+Sudan,SDN,2018,-4
+Suriname,SUR,1990,2
+Suriname,SUR,2000,5
+Suriname,SUR,2010,5
+Suriname,SUR,2018,5
+Sweden,SWE,1990,10
+Sweden,SWE,2000,10
+Sweden,SWE,2010,10
+Sweden,SWE,2018,10
+Switzerland,CHE,1990,10
+Switzerland,CHE,2000,10
+Switzerland,CHE,2010,10
+Switzerland,CHE,2018,10
+Syria,SYR,1990,-9
+Syria,SYR,2000,-6
+Syria,SYR,2010,-6
+Syria,SYR,2018,-9
+Taiwan,TWN,1990,-1
+Taiwan,TWN,2000,9
+Taiwan,TWN,2010,10
+Taiwan,TWN,2018,10
+Tajikistan,TJK,1990,0
+Tajikistan,TJK,2000,-1
+Tajikistan,TJK,2010,-3
+Tajikistan,TJK,2018,-3
+Tanzania,TZA,1990,-6
+Tanzania,TZA,2000,-1
+Tanzania,TZA,2010,-1
+Tanzania,TZA,2018,3
+Thailand,THA,1990,3
+Thailand,THA,2000,9
+Thailand,THA,2010,4
+Thailand,THA,2018,-3
+Togo,TGO,1990,-7
+Togo,TGO,2000,-2
+Togo,TGO,2010,-2
+Togo,TGO,2018,-2
+Trinidad and Tobago,TTO,1990,8
+Trinidad and Tobago,TTO,2000,9
+Trinidad and Tobago,TTO,2010,9
+Trinidad and Tobago,TTO,2018,9
+Tunisia,TUN,1990,-6
+Tunisia,TUN,2000,-3
+Tunisia,TUN,2010,-4
+Tunisia,TUN,2018,7
+Turkey,TUR,1990,9
+Turkey,TUR,2000,7
+Turkey,TUR,2010,7
+Turkey,TUR,2018,-4
+Turkmenistan,TKM,1990,0
+Turkmenistan,TKM,2000,-9
+Turkmenistan,TKM,2010,-9
+Turkmenistan,TKM,2018,-8
+USSR,OWID_USS,1990,0
+Uganda,UGA,1990,-7
+Uganda,UGA,2000,-4
+Uganda,UGA,2010,-1
+Uganda,UGA,2018,-1
+Ukraine,UKR,1990,0
+Ukraine,UKR,2000,6
+Ukraine,UKR,2010,6
+Ukraine,UKR,2018,4
+United Arab Emirates,ARE,1990,-8
+United Arab Emirates,ARE,2000,-8
+United Arab Emirates,ARE,2010,-8
+United Arab Emirates,ARE,2018,-8
+United Kingdom,GBR,1990,10
+United Kingdom,GBR,2000,10
+United Kingdom,GBR,2010,10
+United Kingdom,GBR,2018,8
+United States,USA,1990,10
+United States,USA,2000,10
+United States,USA,2010,10
+United States,USA,2018,8
+Uruguay,URY,1990,10
+Uruguay,URY,2000,10
+Uruguay,URY,2010,10
+Uruguay,URY,2018,10
+Uzbekistan,UZB,1990,0
+Uzbekistan,UZB,2000,-9
+Uzbekistan,UZB,2010,-9
+Uzbekistan,UZB,2018,-9
+Venezuela,VEN,1990,9
+Venezuela,VEN,2000,7
+Venezuela,VEN,2010,-3
+Venezuela,VEN,2018,-3
+Vietnam,VNM,1990,-7
+Vietnam,VNM,2000,-7
+Vietnam,VNM,2010,-7
+Vietnam,VNM,2018,-7
+West Germany,OWID_GFR,1990,10
+World,OWID_WRL,1990,0.5902778
+World,OWID_WRL,2000,2.9565217
+World,OWID_WRL,2010,3.859756
+World,OWID_WRL,2018,4.1084337
+Yemen,YEM,1990,0
+Yemen,YEM,2000,-2
+Yemen,YEM,2010,-2
+Yemen,YEM,2018,0
+Yemen Arab Republic,OWID_YAR,1990,-5
+Yemen People's Republic,OWID_YPR,1990,-7
+Yugoslavia,OWID_YGS,1990,-5
+Zambia,ZMB,1990,-9
+Zambia,ZMB,2000,1
+Zambia,ZMB,2010,7
+Zambia,ZMB,2018,6
+Zimbabwe,ZWE,1990,-6
+Zimbabwe,ZWE,2000,-3
+Zimbabwe,ZWE,2010,1
+Zimbabwe,ZWE,2018,4
