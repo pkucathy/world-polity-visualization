@@ -1,3 +1,5 @@
+// js/main.js
+
 function renderScene1() {
   d3.select("#scene1").style("display", "block");
   d3.select("#scene2").style("display", "none");
