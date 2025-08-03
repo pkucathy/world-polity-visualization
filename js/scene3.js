@@ -1,9 +1,11 @@
+// js/scene3.js
+
 function renderScene3() {
   const container = d3.select("#scene3")
     .style("padding", "40px")
-    .style("position", "relative"); // To anchor nav buttons at bottom
+    .style("position", "relative"); // anchor nav buttons at bottom
 
-  container.html(""); // Clear anything previously rendered
+  container.html(""); // clear anything previously rendered
 
   const headerDiv = container.append("div")
   .style("text-align", "center")
@@ -29,39 +31,38 @@ headerDiv.append("ul")
   .text(d => d);
 
 
-  // Table container and toggle
-  // === Side-by-side layout for table and chart ===
-  const sideBySideWrapper = container.append("div")
-    .style("display", "flex")
-    .style("gap", "60px")
-    .style("align-items", "flex-start")
-    .style("margin-top", "20px");
+// Table container and toggle
+// Create a side-by-side layout for table and chart
+const sideBySideWrapper = container.append("div")
+  .style("display", "flex")
+  .style("gap", "60px")
+  .style("align-items", "flex-start")
+  .style("margin-top", "20px");
 
-  // Chart container (left)
+// Chart container (left)
 const chartDiv = sideBySideWrapper.append("div")
-.attr("id", "summary-bar-chart")
-.style("margin-top", "10px")
-.style("flex", "1");
+  .attr("id", "summary-bar-chart")
+  .style("margin-top", "10px")
+  .style("flex", "1");
 
 // Table container (right)
 const tableSection = sideBySideWrapper.append("div")
-.style("flex", "1");
+  .style("flex", "1");
 
-  // Filter dropdown inside the table section (right side)
-  const filterDiv = tableSection.append("div")
-    .style("margin-bottom", "10px")
-    .style("display", "flex")
-    .style("justify-content", "flex-end")
-    .style("max-width", "550px"); 
+// Filter dropdown inside the table section (right side)
+const filterDiv = tableSection.append("div")
+  .style("margin-bottom", "10px")
+  .style("justify-content", "flex-end")
+  .style("max-width", "550px"); 
 
-  filterDiv.append("label")
-    .text("Filter: ")
-    .style("font-weight", "bold")
-    .style("margin-right", "10px");
+filterDiv.append("label")
+  .text("Filter: ")
+  .style("font-weight", "bold")
+  .style("margin-right", "10px");
 
-  const select = filterDiv.append("select");
+const select = filterDiv.append("select");
 
-  select.selectAll("option")
+select.selectAll("option")
   .data(["All", "Democracies before 1990", "Non-democracies before 1990"])
   .enter()
   .append("option")
@@ -69,17 +70,17 @@ const tableSection = sideBySideWrapper.append("div")
 
 const tableDiv = tableSection.append("div").attr("id", "summary-table");
 
-  const toggleButton = tableSection.append("button")
-    .text("Show Full Table")
-    .style("margin-top", "15px")
-    .style("display", "block");
+const toggleButton = tableSection.append("button")
+  .text("Show Full Table")
+  .style("margin-top", "15px")
+  .style("display", "block");
 
-  const note = tableSection.append("p")
-    .attr("id", "table-note")
-    .style("font-size", "12px")
-    .style("color", "gray")
-    .style("margin-top", "8px")
-    .text("Showing first 15 rows. Click the button above to view the full table.");
+const note = tableSection.append("p")
+  .attr("id", "table-note")
+  .style("font-size", "12px")
+  .style("color", "gray")
+  .style("margin-top", "8px")
+  .text("Showing first 15 rows. Click the button above to view the full table.");
 
 
 
@@ -101,7 +102,7 @@ const tableDiv = tableSection.append("div").attr("id", "summary-table");
       updateTable(select.property("value"), fullTableVisible);
     });
 
-    // Prepare the data groups
+  // Prepare the data groups
   const all = fullData;
   const demo1990 = fullData.filter(d => +d.high_in_1990 === 1);
   const nonDemo1990 = fullData.filter(d => +d.high_in_1990 === 0);
@@ -201,46 +202,44 @@ const tableDiv = tableSection.append("div").attr("id", "summary-table");
   
   // Add a legend
 const legend = svg.append("g")
-.attr("transform", `translate(${width - 180}, ${margin.top})`);
+  .attr("transform", `translate(${width - 180}, ${margin.top})`);
 
 legend.append("rect")
-.attr("x", 0)
-.attr("y", 0)
-.attr("width", 12)
-.attr("height", 12)
-.attr("fill", "#1f77b4");
+  .attr("x", 0)
+  .attr("y", 0)
+  .attr("width", 12)
+  .attr("height", 12)
+  .attr("fill", "#1f77b4");
 
 legend.append("text")
-.attr("x", 18)
-.attr("y", 10)
-.text("Mean Score")
-.style("font-size", "12px");
+  .attr("x", 18)
+  .attr("y", 10)
+  .text("Mean Score")
+  .style("font-size", "12px");
 
 legend.append("rect")
-.attr("x", 0)
-.attr("y", 20)
-.attr("width", 12)
-.attr("height", 12)
-.attr("fill", "#ff7f0e");
+  .attr("x", 0)
+  .attr("y", 20)
+  .attr("width", 12)
+  .attr("height", 12)
+  .attr("fill", "#ff7f0e");
 
 legend.append("text")
-.attr("x", 18)
-.attr("y", 30)
-.text("Standard Deviation")
-.style("font-size", "12px");
+  .attr("x", 18)
+  .attr("y", 30)
+  .text("Standard Deviation")
+  .style("font-size", "12px");
     
-  // Add title
-  svg.append("text")
-    .attr("x", width / 2)
-    .attr("y", 20)
-    .attr("text-anchor", "middle")
-    .style("font-size", "16px")
-    .style("font-weight", "bold")
-    .text("Group-Level Summary: Avg. Mean Score vs. Std Dev");
-
-  
-
-  });
+// Add title
+svg.append("text")
+  .attr("x", width / 2)
+  .attr("y", 20)
+  .attr("text-anchor", "middle")
+  .style("font-size", "16px")
+  .style("font-weight", "bold")
+  .text("Group-Level Summary: Avg. Mean Score vs. Std Dev");
+    
+});
 
   function updateTable(filterValue, showAll) {
     tableDiv.html("");
@@ -286,12 +285,9 @@ legend.append("text")
       .style("display", showAll ? "none" : "block");
   }
 
-  
 
-
-
-  // === Navigation Buttons (bottom left) ===
-  d3.select("#scene3").selectAll(".nav-button").remove();  // Clear any pre-existing buttons
+  // Navigation Buttons (bottom left) 
+  d3.select("#scene3").selectAll(".nav-button").remove();  // clear any pre-existing buttons
 
   const navDiv = d3.select("#scene3")
     .append("div")
