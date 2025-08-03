@@ -17,7 +17,7 @@ function renderScene2() {
     .append("g")
     .attr("transform", `translate(${margin.left},${margin.top})`);
 
-  // Tooltip div
+  // Tooltip
   const tooltip = d3.select("body").append("div")
     .attr("class", "tooltip")
     .style("opacity", 0); 
@@ -124,9 +124,8 @@ function renderScene2() {
       });
 
 
-
     // Points
-    // Democratic in 1990: Green Squares
+    // Democratic before 1990: green squares
     svg.selectAll(".square-point")
       .data(data.filter(d => d.democracy_1990 && !(d.mean_score === 10 && d.std_dev === 0)))
       .enter()
@@ -146,7 +145,7 @@ function renderScene2() {
       })
       .on("mouseout", () => tooltip.transition().duration(500).style("opacity", 0));
 
-    // Not democratic in 1990: Blue Circles
+    // Not democratic in 1990: blue circles
     svg.selectAll(".circle-point")
       .data(data.filter(d => !d.democracy_1990))
       .enter()
@@ -206,9 +205,9 @@ function renderScene2() {
 
     // Legend
 const legend = svg.append("g")
-.attr("transform", `translate(${width - 180}, 10)`);  // Adjust position as needed
+.attr("transform", `translate(${width - 180}, 10)`);  
 
-// Green square = Democratic in 1990
+// Green square = Democratic before 1990
 legend.append("rect")
 .attr("x", 0)
 .attr("y", 0)
